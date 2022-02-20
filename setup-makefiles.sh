@@ -9,7 +9,7 @@
 set -e
 
 # Required!
-export DEVICE=DRG
+export DEVICE=CTL
 export DEVICE_COMMON=sdm660-common
 export VENDOR=nokia
 

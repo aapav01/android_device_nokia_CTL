@@ -7,6 +7,10 @@ on post-fs-data
     # Fingerprint
     mkdir /data/system/fingerprint 0770 system system
 
+    # NFC: create data/nfc for nv storage
+    mkdir /data/nfc 0770 nfc nfc
+    mkdir /data/nfc/param 0770 nfc nfc
+
 on property:ro.boot.simslot=1
     setprop persist.radio.multisim.config ss
 

@@ -3,26 +3,6 @@
     <item name="none">0</item>
     <item name="screen.on">63</item>
     <item name="screen.full">261</item>
-    <item name="bluetooth.active">10</item>
-    <item name="bluetooth.on">0.1</item>
-    <item name="wifi.on">0.6</item>
-    <item name="wifi.active">64</item>
-    <item name="wifi.scan">24</item>
-    <item name="dsp.audio">10</item>
-    <item name="dsp.video">50</item>
-    <item name="camera.flashlight">160</item>
-    <item name="camera.avg">550</item>
-    <item name="gps.on">45</item>
-    <item name="radio.active">200</item>
-    <item name="radio.scanning">90</item>
-    <array name="radio.on">
-        <value>3</value>
-        <value>2.5</value>
-    </array>
-    <item name="modem.controller.idle">0</item>
-    <item name="modem.controller.rx">0</item>
-    <item name="modem.controller.tx">0</item>
-    <item name="modem.controller.voltage">0</item>
     <array name="cpu.clusters.cores">
         <value>4</value>
         <value>4</value>
@@ -61,20 +41,5 @@
     </array>
     <item name="cpu.awake">1.6</item>
     <item name="cpu.idle">0.1</item>
-    <item name="battery.capacity">3060</item>
-    <item name="wifi.controller.idle">0</item>
-    <item name="wifi.controller.rx">0</item>
-    <item name="wifi.controller.tx">0</item>
-    <item name="bluetooth.controller.idle">0</item>
-    <item name="bluetooth.controller.rx">0</item>
-    <item name="bluetooth.controller.tx">0</item>
-    <array name="wifi.controller.tx_levels" />
-    <item name="wifi.controller.voltage">0</item>
-    <array name="wifi.batchedscan">
-        <value>.0002</value>
-        <value>.002</value>
-        <value>.02</value>
-        <value>.2</value>
-        <value>2</value>
-    </array>
+    <item name="battery.capacity">3000</item>
 </device>

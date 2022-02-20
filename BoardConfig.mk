@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/nokia/DRG
+DEVICE_PATH := device/nokia/CTL
 
 # Inherit from nokia sdm660-common
 -include device/nokia/sdm660-common/BoardConfigCommon.mk
