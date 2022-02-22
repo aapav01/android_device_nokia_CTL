@@ -17,18 +17,12 @@
 # Inherit from CTL device
 $(call inherit-product, device/nokia/CTL/device.mk)
 
-# Inherit from nokia sdm660-common
-$(call inherit-product, device/nokia/sdm660-common/sdm660.mk)
-
 # Inherit some common AOSP stuff
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-
-# Set Shipping API level
-$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal

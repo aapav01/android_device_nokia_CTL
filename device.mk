@@ -37,6 +37,3 @@ PRODUCT_PACKAGES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.CTL.target.rc
-
-# Get non-open-source specific aspects
-$(call inherit-product, vendor/nokia/CTL/CTL-vendor.mk)
