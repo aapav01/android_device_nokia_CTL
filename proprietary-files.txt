@@ -2,7 +2,7 @@
 ## From Nokia/Crystal_00WW/CTL_sprout:10/QKQ1.190828.002/00WW_4_15C:user/release-keys unless pinned
 
 # Audio (Configs)
-vendor/etc/mixer_paths_drg.xml
+vendor/etc/mixer_paths_ctl.xml
 vendor/etc/audio_platform_info_ctl.xml
 
 # Audio (ACDB)
@@ -31,6 +31,7 @@ vendor/lib/libmmcamera_s5k5e9_ctl_aux_eeprom.so
 vendor/lib/libmmcamera_s5k2l8_ctl_main_eeprom.so
 vendor/lib/libmmcamera_s5k4h7_ctl_front_eeprom.so
 vendor/lib/libmmcamera_s5k4h7_ctl_front_hlt_eeprom.so
+vendor/lib/libmmcamera_stillmore_lib.so
 
 # Camera Chromatix
 vendor/etc/camera/s5k2l8_ctl_main_chromatix.xml
@@ -141,10 +142,30 @@ vendor/lib/libchromatix_s5k2l8_ctl_main_zsl_preview_panorama_3a.so
 vendor/lib/libchromatix_s5k4h7_ctl_front_2nd_a3_default_preview.so
 
 # Fingerprint (Firmware - Goodix)
+vendor/firmware/goodix_config.cfg
+vendor/firmware/goodix_config_hlt.cfg
 vendor/firmware/goodix_config_hlt_ctl.cfg
+vendor/firmware/goodix_config_oflim.cfg
+vendor/firmware/goodix_config_truly.cfg
+vendor/firmware/goodix_firmware.bin
+vendor/firmware/goodix_firmware_hlt.bin
 vendor/firmware/goodix_firmware_hlt_ctl.bin
+vendor/firmware/goodix_firmware_oflim.bin
+vendor/firmware/goodix_firmware_truly.bin
+vendor/firmware/gxfp3258_drg.b00
+vendor/firmware/gxfp3258_drg.b01
+vendor/firmware/gxfp3258_drg.b02
+vendor/firmware/gxfp3258_drg.b03
+vendor/firmware/gxfp3258_drg.b04
+vendor/firmware/gxfp3258_drg.b05
+vendor/firmware/gxfp3258_drg.b06
+vendor/firmware/gxfp3258_drg.b07
+vendor/firmware/gxfp3258_drg.mdt
 
 # Fingerprint (Goodix)
+vendor/lib64/hw/fingerprint.gxfp3258_drg.so
+vendor/lib64/libgf_ca_gxfp3258_drg.so
+vendor/lib64/libgf_hal_gxfp3258_drg.so
 vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so
 vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so
 vendor/lib64/libvendor.goodix.hardware.fingerprintextension@1.0.so
