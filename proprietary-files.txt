@@ -156,6 +156,13 @@ vendor/firmware/a512_zap.b02
 vendor/firmware/a512_zap.elf
 vendor/firmware/a512_zap.mdt
 
+# NFC
+vendor/etc/nfcee_access.xml
+
+# NFC (Firmware - Samsung)
+vendor/firmware/sec_s3nrn81_firmware.bin
+vendor/etc/sec_s3nrn81_rfreg.bin
+
 # Sensor (Configs)
 #vendor/etc/sensors/sensor_def_qcomdev_drg.conf
 

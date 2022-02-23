@@ -19,5 +19,8 @@ vendor.camera.hal1.packagelist=com.dw.btime
 # Display
 qemu.sf.lcd_density=420
 
+#NFC
+ro.hardware.nfc_nci=sec
+
 # Radio
 persist.radio.qcom_ext_enable=true
